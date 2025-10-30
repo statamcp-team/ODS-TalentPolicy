@@ -8,15 +8,15 @@ Open Data Series: City and Province Talent Policy.
 ## Raw data source
 该项目中所有源数据均来自各地方政府网站，源数据所有权利归各地方政府所有。
 进一步的数据由[北大法宝](https://www.pkulaw.com)整理而得。
-该项目中的数据为人工在北大法宝进行检索后人工二次整理所得，并对其进行系列[处理](#)。
+该项目中的数据为人工在北大法宝进行检索后人工二次整理所得，并对其进行系列[处理](#data-process)。
 
 ## Data process
 在原始数据获得后，通过[city-parse](https://github.com/sepinetam/city-parse)中所提供的工具，基于小参数大模型进行关键信息提取并进行人工校对而得。  
 具体流程如下：
-1. 获取以“人才引进”作为检索结果的原始数据并将其整合为一个[csv文件](#)
+1. 获取以“人才引进”作为检索结果的原始数据并将其整合为一个[csv文件](source/datas/raw.csv)
 2. 使用[city-parse](https://github.com/sepinetam/city-parse)中的 `parse` 工具进行城市名称的提取
 3. 删除省级行政单位样本（如浙江省、内蒙古自治区等，但保留直辖市）并按照时间排序
-4. 保留城市首次出现的样本，得到最终样本
+4. 保留城市首次出现的样本，得到最终[样本](source/datas/talent_policy.csv)
 
 
 ## Descriptive statistics
