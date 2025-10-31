@@ -2,7 +2,13 @@
 Open Data Series: City and Province Talent Policy.  
 开源数据系列：城市和省级层面人才引进政策。
 
-> This project is under the [StataMCP-Team](https://team.statamcp.com)'s STOP(StataMCP Team OpenData Projects), all rights reserved by StataMCP-Team. 
+> This project is part of the [StataMCP-Team](https://team.statamcp.com)'s **STOP (StataMCP Team OpenData Projects)**.  
+> All rights reserved by **StataMCP-Team** and **Shanghai BayesViews Co., Ltd. (上海比翼视界信息科技有限公司)**.  
+> Any unauthorized redistribution or commercial use is strictly prohibited.  
+> 本项目隶属于 [StataMCP-Team](https://team.statamcp.com) 的 **STOP（StataMCP 团队开源数据计划）**。  
+> 版权所有 © **StataMCP-Team** 与 **上海比翼视界信息科技有限公司**。  
+> 未经授权，禁止任何形式的二次分发或商业用途。
+> 
 > If there is any infringement, please [contact us](mailto:sepine@statamcp.com) for removal.
 
 ## Raw data source
@@ -24,7 +30,7 @@ Open Data Series: City and Province Talent Policy.
 - Obs: 1809 (in raw), 318 (final data)
 
 ## License
-[StataMCP-OpenData-License](#)
+[StataMCP-OpenData-Project-License](#)
 
 如果在您的研究中使用了该数据请注明来源，可以使用如下的 `BibTex` 模版:
 ```
