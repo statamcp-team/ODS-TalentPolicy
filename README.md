@@ -24,6 +24,9 @@ Open Data Series: City and Province Talent Policy.
 3. 删除省级行政单位样本（如浙江省、内蒙古自治区等，但保留直辖市）并按照时间排序
 4. 保留城市首次出现的样本，得到最终[样本](source/datas/talent_policy.csv)
 
+## Future plans
+- 添加城市的六位编码
+- 添加精简版和dta格式
 
 ## Descriptive statistics
 - Time Span: 2011.01.01 - 2024.12.31
